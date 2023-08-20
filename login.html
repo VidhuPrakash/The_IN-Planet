@@ -29,69 +29,70 @@
     </nav>
 
     <div class="login d-flex justify-content-center align-content-center m-5">
-    <div class=" card bg-dark flex-wrap" style="width: 30rem;">
-      <form action="">
-      <div class="m-4">
-        <input
-          type="text"
-          class="form-control"
-          placeholder="Username"
+      <div class="card bg-dark flex-wrap" style="width: 30rem">
+        <img
+          src="assets\Travelling-to-India1.jpg"
+          alt=""
+          class="card-img-top img-fillter"
         />
-      </div>
-      <div class="m-4">
-        <input
-          type="text"
-          class="form-control"
-          placeholder="Password"
-        />
-        <button type="submit" class="btn btn-info btn-lg mt-3 ">Login</button>
-      </div>
-    </form>
-    </div>
-  </div>
-  
-  <footer class="bg-dark text-light text-center p-5">
-    <div class="container">
-      <p>© 2023 THE IN-PLANET. All rights reserved.</p>
-      <div class="btn-group" role="group" aria-label="Basic outlined example">
-        <button type="button" class="btn">
-          <a href="www.facebook.com"
-            ><img src="assets\socialmedia\fb.png" alt=""
-          /></a>
-        </button>
-        <button type="button" class="btn">
-          <a href="www.instagram.com"
-            ><img src="assets\socialmedia\insta.png" alt=""
-          /></a>
-        </button>
-        <button type="button" class="btn">
-          <a href="www.whatsapp.com"
-            ><img src="assets\socialmedia\whae.png" alt=""
-          /></a>
-        </button>
-      </div>
-      <div class="row">
-        <div class="footer-content col-md-4">
-          <a href="index.html">Home</a>
-        </div>
-        <div class="footer-content col-md-4">
-          <a href="feedback.html">Feedback</a>
-        </div>
-        <div class="footer-content col-md-4">
-          <a href="about.html">About Us</a>
-        </div>
-        <div class="footer-content col-md-4">
-          <a href="contact.html">Contact Us</a>
-        </div>
-        <div class="footer-content col-md-4">
-          <a href="privacy.html">Privacy Policy</a>
-        </div>
-        <div class="footer-content col-md-4">
-          <a href="service.html">Our Services</a>
-        </div>
+
+        <form name="login" action="home.html" method="post" onsubmit="return Validate()">
+          <div class="m-5">
+            <input type="text"  class="form-control" placeholder="Username" name="name" />
+          </div>
+          <div class="m-5">
+            <input type="password" class="form-control" placeholder="Password" name="pswd" />
+            <button type="submit" class="btn btn-info btn-lg mt-3">
+              Login
+            </button>
+          </div>
+          <a href="#forget.html " class="mt-3 ms-4 mb-5">Forget password?</a>
+        </form>
       </div>
     </div>
-  </footer>
+
+    <footer class="bg-dark text-light text-center p-5">
+      <div class="container">
+        <p>© 2023 THE IN-PLANET. All rights reserved.</p>
+        <div class="btn-group" role="group" aria-label="Basic outlined example">
+          <button type="button" class="btn">
+            <a href="www.facebook.com"
+              ><img src="assets\socialmedia\fb.png" alt=""
+            /></a>
+          </button>
+          <button type="button" class="btn">
+            <a href="www.instagram.com"
+              ><img src="assets\socialmedia\insta.png" alt=""
+            /></a>
+          </button>
+          <button type="button" class="btn">
+            <a href="www.whatsapp.com"
+              ><img src="assets\socialmedia\whae.png" alt=""
+            /></a>
+          </button>
+        </div>
+        <div class="row">
+          <div class="footer-content col-md-4">
+            <a href="index.html">Home</a>
+          </div>
+          <div class="footer-content col-md-4">
+            <a href="feedback.html">Feedback</a>
+          </div>
+          <div class="footer-content col-md-4">
+            <a href="about.html">About Us</a>
+          </div>
+          <div class="footer-content col-md-4">
+            <a href="contact.html">Contact Us</a>
+          </div>
+          <div class="footer-content col-md-4">
+            <a href="privacy.html">Privacy Policy</a>
+          </div>
+          <div class="footer-content col-md-4">
+            <a href="service.html">Our Services</a>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
@@ -102,5 +103,6 @@
       integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
