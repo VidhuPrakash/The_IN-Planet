@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+a:hover{
+    color: aliceblue;
+    
+}
+
+
+.carousel-inner {
+    max-width: 100%;
+    max-height: 700px;
+    filter: brightness(50%);
+  }
+  .carousel-caption {
+    text-align: center;
+    z-index: 1;
+  }
+  .in-planet{
+    max-width: 100%;
+    
+  }
+  .display-3 {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sign-up{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer{
+    max-height: 100px;
+  }
+  .btn img{
+    max-width: 35px;
+    max-height: 35px;
+  }
+  
+
+  
