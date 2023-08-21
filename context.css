@@ -57,5 +57,10 @@ a:hover{
   .img-fillter{
     filter:brightness(50%);
   }
-
-  
+  .return-error{
+    z-index: 1;
+    color: rgb(255, 10, 2);
+  }
+  .btn a{
+    color: inherit;
+  }

@@ -1,11 +1,20 @@
-function Validate(){
-    var name=document.login.name.value;
-    var password=document.login.pswd.value;
-    if(name==""||password==""||name==null||password==null){
-        alert("Please Enter Valid Information");
-        return false;
-    }
-    else{
-        return true;
-    }
+
+function ShowError(id,error){
+    element = document.getElementById(id);
+    element.getElementsByClassName('return-error')[0].innerHTML=error;
+}
+
+function ValidateForm(){
+    var return_value = true; 
+
+ var name = document.forms['MyForm']["name"].value;
+ var phonenumber = document.forms['MyForm']["number"].value;
+ var email = document.forms['MyForm']["email"].value;
+ var password = document.forms['MyForm']["pass"].value;
+ var cpassword = document.forms['MyForm']["cpass"].value;
+ if(name.length>10){
+    ShowError("name","*Username is too long");
+    return_value = false;
+ }
+ return return_value;
 }
