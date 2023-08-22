@@ -1,7 +1,6 @@
 
-function ShowError(id,error){
-    element = document.getElementById(id);
-    element.getElementsByClassName('return-error')[0].innerHTML=error;
+function ShowError(error){
+    document.getElementsByClassName('return-error')[0].innerHTML=error;
 }
 
 function ValidateForm(){
@@ -13,8 +12,14 @@ function ValidateForm(){
  var password = document.forms['MyForm']["pass"].value;
  var cpassword = document.forms['MyForm']["cpass"].value;
  if(name.length>10){
-    ShowError("name","*Username is too long");
-    return_value = false;
+    ShowError("*Username is too long");
+    return false;
  }
- return return_value;
+ if(name==""){
+    ShowError("*Please enter username without fail");
+    return false;
+ }
+ else{
+    return true;
+ }
 }
