@@ -17,11 +17,15 @@ function ValidateForm(){
  emailERROR.innerHTML="";
  passERROR.innerHTML="";
  cpassERROR.innerHTML="";
- if(name.length>10){
+ if(name.length>=10){
     nameERROR.innerHTML="Username is greater than 10";
     val=false;
  }
- if(name.length<5){
+ if(name.length==0){
+    nameERROR.innerHTML="Please enter username"
+    val=false;
+ }
+ if(name.length<=5&&name.length>=1){
     nameERROR.innerHTML="Username is smaller than 5";
     val=false;
  }
@@ -30,11 +34,11 @@ function ValidateForm(){
     numERROR.innerHTML="Invalid number";
     val=false;
  }
- if(email.length<2) {
+ if(email.length<=2) {
     emailERROR.innerHTML = 'Invalid email address';
     val = false;
 }
-if(password<8){
+if(password<=8){
     passERROR.innerHTML = "Must contain more than 8 values";
     val = false;
 }

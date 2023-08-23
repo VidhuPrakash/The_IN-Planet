@@ -64,3 +64,11 @@ a:hover{
   .btn a{
     color: inherit;
   }
+  .navbar-custom{
+    backdrop-filter: blur(5px);
+  }
+  .btn-custom{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 40px 80px; 
+  }
