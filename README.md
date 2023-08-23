@@ -1,4 +1,5 @@
 # The_IN-Planet
+ Link : https://vidhuprakash.github.io/The_IN-Planet/
 *This a static web page which is developed for learning html,css,js,boostarp*
 > THE IN-Planet is indian tour destination guide where you can find destiantions in North,East,West and South india with form validation using javascript.
  # __HTML__
@@ -16,4 +17,4 @@
  - script.js -> Contains the form validation code for the login page
 
 
- Link : https://vidhuprakash.github.io/The_IN-Planet/
+
