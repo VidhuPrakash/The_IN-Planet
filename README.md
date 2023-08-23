@@ -1,9 +1,6 @@
 # The_IN-Planet
 *This a static web page which is developed for learning html,css,js,boostarp*
-> THE IN-Planet is indian tour destination guide where you can find destiantions in North india,East india,West india and south india.
-> The authentication is simple and user friendly just used javascript
-> boostarp5 and custom CSS added
-> it contains 7 pages till now.
+> THE IN-Planet is indian tour destination guide where you can find destiantions in North,East,West and South india with form validation using javascript.
   __HTML__
  - asset file contains images
  - index.html -> landing page
@@ -19,4 +16,4 @@ __JavaScript__
  - script.js -> Contains the form validation code for the login page
 
 
- Link : 
+ Link : https://vidhuprakash.github.io/The_IN-Planet/
