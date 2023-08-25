@@ -11,7 +11,7 @@ function ValidateForm(){
  var emailERROR= document.getElementById("email-error");
  var passERROR=document.getElementById("pass-error");
  var cpassERROR=document.getElementById("cpass-error");
- var usr=document.getElementById("usr");
+ 
  nameERROR.innerHTML="";
  numERROR.innerHTML="";
  emailERROR.innerHTML="";
